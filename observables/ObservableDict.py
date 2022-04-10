@@ -6,7 +6,7 @@
 @Author: Paul Hempel
 @Date:   09.04.2022
 """
-from utils.observables.Observable import Observable
+from observables.Observable import Observable
 
 
 class ObservableDict(dict, Observable):
